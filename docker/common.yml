@@ -5,12 +5,16 @@ services:
       context: ./
       target: dever
       ssh: [default]
-      # args:
+      args:
+        - USER=$USER
+        - UID=$UID
+        - GID=$GID
+        - HOME=$HOME
       #   - FROM_IMAGE=osrf/ros:galactic-desktop
-    image: hackathon_fira:devel
+    image: hackathon_fira:test_user
     volumes:
-      - /etc/passwd:/etc/passwd:ro
-      - /etc/group:/etc/group:ro
+      # - /etc/passwd:/etc/passwd:ro
+      # - /etc/group:/etc/group:ro
       - $PWD:$PWD
     environment:
       - WORKSPACE=$PWD

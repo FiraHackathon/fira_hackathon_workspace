@@ -60,3 +60,10 @@ ENV SHELL=/bin/bash
 RUN rm -rf "$WORKSPACE"
 
 COPY --chmod=755 ros_entrypoint.sh ros_setup.sh /
+
+ARG USER
+ARG GID
+ARG UID
+ARG HOME
+RUN groupadd -g $GID $USER && \
+    useradd -u $UID -g $GID -s /bin/bash -d $HOME $USER

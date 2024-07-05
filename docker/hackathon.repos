@@ -182,7 +182,7 @@ repositories:
   src/romea_ros2/tools/romea_simulation:
     type: git
     url: https://github.com/Romea/romea-ros2-simulation.git
-    version: f22a3e64fdc3caba3411da5617ac03f44112651c
+    version: 641682b97c86d6b44823c1a1cb75953eab4ebffe
   src/third_party/serial:
     type: git
     url: https://github.com/Romea-Third-Party/serial-ros2.git

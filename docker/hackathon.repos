@@ -177,7 +177,7 @@ repositories:
     version: 345c564d260b4c8ee3ec0c815eab5b9433f9b1b8
   src/romea_ros2/tools/romea_path_tools:
     type: git
-    url: git@github.com:Romea/romea-ros-path-tools.git
+    url: https://github.com/Romea/romea-ros-path-tools.git
     version: c1c58382c5b6d20234991aaaa65bb7767ce81614
   src/romea_ros2/tools/romea_simulation:
     type: git

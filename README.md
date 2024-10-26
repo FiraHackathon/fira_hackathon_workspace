@@ -1,3 +1,7 @@
+This project is the workspace of FIRA hackathon of febuary 2024.
+If you are interested by the FIRA hackathon 2025, please go to
+[this project](https://github.com/FiraHackathon/hackathon2025_ws).
+
 ## Documentation of the challenges
 
 * [challenge 1: generate a path](/doc/challenge1.md)
